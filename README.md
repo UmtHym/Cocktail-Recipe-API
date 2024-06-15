@@ -51,7 +51,6 @@ This project is a simple web application that allows users to search for cocktai
 
 Alternatively, you can set up a script in your `package.json` to make this easier. Add the following script to the `scripts` section:
 
-```json
 "scripts": {
   "compile:sass": "sass scss/main.scss css/style.css"
 }
