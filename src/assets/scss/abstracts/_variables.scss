@@ -1,0 +1,11 @@
+$custom-primary-color: #6f42c1; 
+
+$btn-bd-primary-font-weight: 600;
+$btn-bd-primary-color: #fff;
+$btn-bd-primary-bg: $custom-primary-color;
+$btn-bd-primary-border-color: $custom-primary-color;
+$btn-bd-primary-hover-bg: darken($custom-primary-color, 10%);
+$btn-bd-primary-hover-border-color: darken($custom-primary-color, 10%);
+$btn-bd-primary-focus-shadow-rgb: to-rgb($custom-primary-color);
+$btn-bd-primary-active-bg: darken($custom-primary-color, 20%);
+$btn-bd-primary-active-border-color: darken($custom-primary-color, 20%);

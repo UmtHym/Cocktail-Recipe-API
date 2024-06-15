@@ -1,0 +1,56 @@
+/*********************
+-- Table of contents
+
+- Custom variables 
+- Bootstrap functions
+- Bootstrap variables
+- Bootstrap mixins
+- Custom map amends
+- Custom utilities
+- Bootstrap main import
+
+***********************
+*/
+
+
+// Import our variable overrides.
+// Go here to set custom values for Bootstrap vars
+@import "./abstracts/variables";
+
+// Import Bootstrap functions, vars and mixins
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/_functions.scss";
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/_variables.scss";
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/_mixins.scss";
+@import '/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/_maps.scss';
+
+// Import our map amends
+// Go here to run any Sass map amends on Bootstrap Sass maps
+@import "./abstracts/map-amends";
+
+// Import our utility overrides
+// Go here to amend or set custom utilities using the Bootstrap API
+@import '/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/src/assets/scss/utilities/_bootstrap-api-utilities.scss';
+
+// Bootstrap main import
+
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/root";
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/reboot";
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/type";
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/buttons";
+@import "/Users/umithayim/Desktop/Projects/Cocktails-Recipe-API/node_modules/bootstrap/scss/forms";
+
+.btn-bd-primary {
+  --bs-btn-font-weight: #{$btn-bd-primary-font-weight};
+  --bs-btn-color: #{$btn-bd-primary-color};
+  --bs-btn-bg: #{$btn-bd-primary-bg};
+  --bs-btn-border-color: #{$btn-bd-primary-border-color};
+  --bs-btn-hover-color: #{$btn-bd-primary-color};
+  --bs-btn-hover-bg: #{$btn-bd-primary-hover-bg};
+  --bs-btn-hover-border-color: #{$btn-bd-primary-hover-border-color};
+  --bs-btn-focus-shadow-rgb: #{$btn-bd-primary-focus-shadow-rgb};
+  --bs-btn-active-color: #{$btn-bd-primary-color};
+  --bs-btn-active-bg: #{$btn-bd-primary-active-bg};
+  --bs-btn-active-border-color: #{$btn-bd-primary-active-border-color};
+}
+
+
