@@ -59,6 +59,21 @@ Then run the script using:
 
     npm run compile:sass
 
+**Bootstrap Integration
+   
+1. Install Bootstrap using npm or yarn:
+
+    npm install bootstrap
+    or 
+    yarn add bootstrap
+
+2. Import the Bootstrap CSS file in your main entry point (usually src/index.js):
+
+   (JS)
+   import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 Open the application:
 
 Open the index.html file in your web browser to see the application in action.
